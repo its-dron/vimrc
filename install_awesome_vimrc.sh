@@ -12,4 +12,7 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+mkdir -p ~/.vim/colors
+cp ~/.vim_runtime/sources_forked/peaksea/colors/peaksea.vim ~/.vim/colors/peaksea.vim
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
